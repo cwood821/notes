@@ -1,6 +1,6 @@
 # Cloudformation Updates
 
-[CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-whatis-howdoesitwork.html) creates a `stack` of resources on AWS based on a provided template.
+[CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-whatis-howdoesitwork.html) creates a `stack of resources on AWS based on a provided template.
 
 You can update an existing stack, but this may cause service interruption.
 
@@ -11,5 +11,9 @@ For replacement, according to documentation:
 
 See the [AWS REsource Types Reference](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html) to see the effects of updating particular resource properties.
 
+### ECS Services
 
+When updating an ECS service, interruption may depend on the [deployment configuration](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/update-service.html).
+
+See [ECS note](ecs.md).
 
