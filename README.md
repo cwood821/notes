@@ -1,2 +1,4 @@
 # notes
-longer-form reference
+
+A notebook of references from day-to-day programming
+
