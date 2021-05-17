@@ -1,6 +1,6 @@
 # Elastic Container Service (ECS)
 
-Services -> Tasks
+Services run Tasks. Tasks are associated with specific container tags.
 
 Service Discovery, Load Balancers, Listener Rules
 
@@ -24,3 +24,8 @@ For example, consider this CloudFormation fragment:
 
 ECS deploys versions of tasks. Tasks are associated with a version of a container. To rollback to a previous version of a task after a deployment, update the service and choose a previous task version. Check "force new deployemnt". This will trigger a deployment of the previous task version.
 
+## Debug Deployments
+
+Services run version of tasks. Tasks may fail to start. 
+
+Under Health and Metrics in ECS, you can see when new tasks are started. To find the reason that a task failed to start, navigate to the cluster in ECS and click Tasts. Find the task ID that failed to start (sort by start date, if desired). The task-specific view will show a `Stopped reason`.
