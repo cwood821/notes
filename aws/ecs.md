@@ -4,7 +4,7 @@ Services run Tasks. Tasks are associated with specific container tags.
 
 Service Discovery, Load Balancers, Listener Rules
 
-This post [covers the full ECS setup](https://tomgregory.com/aws-ecs-deployments-step-by-step/).
+[This post](https://tomgregory.com/aws-ecs-deployments-step-by-step/) covers a full ECS setup.
 
 ## Service Updates
 
