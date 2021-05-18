@@ -1,6 +1,6 @@
 # Cloudformation Updates
 
-[CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-whatis-howdoesitwork.html) creates a `stack of resources on AWS based on a provided template.
+[CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-whatis-howdoesitwork.html) creates a `stack` of resources on AWS based on a provided template.
 
 You can update an existing stack, but this may cause service interruption.
 
