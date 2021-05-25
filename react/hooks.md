@@ -13,8 +13,8 @@ function Search({ searchText }) {
     // will only create a new function when searchText changes
   }, [searchText]); 
 
-  // If Search re-renders but searchText has not changed, the function won't change
-  // and it won't break memoization
+  // If Search re-renders but searchText has not changed, a new function will not be  
+  // created which would break memoization
   return <SearchResults searchText={searchText} clickHandler={handler} />
 
 }
@@ -32,4 +32,3 @@ const SearchResults = React.memo(Results);
 ```
 
 Read [this post](https://dmitripavlutin.com/dont-overuse-react-usecallback/).
-
