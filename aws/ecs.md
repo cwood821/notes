@@ -28,4 +28,4 @@ ECS deploys versions of tasks. Tasks are associated with a version of a containe
 
 Services run version of tasks. Tasks may fail to start. 
 
-Under Health and Metrics in ECS, you can see when new tasks are started. To find the reason that a task failed to start, navigate to the cluster in ECS and click Tasts. Find the task ID that failed to start (sort by start date, if desired). The task-specific view will show a `Stopped reason`.
+Under Health and Metrics in ECS, you can see when new tasks are started. To find the reason that a task failed to start, navigate to the cluster in ECS and click Tasks. Find the task ID that failed to start (sort by start date, if desired). The task-specific view will show a `Stopped reason`.
