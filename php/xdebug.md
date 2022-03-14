@@ -39,3 +39,5 @@ brew install qcachegrind
 ```
 
 Launch with `qcachegrind`. You may need to unpack the archived profiler output before opening it in the UI. 
+
+This [short video](https://www.youtube.com/watch?v=h-0HpCblt3A) has an overview of the interface.
