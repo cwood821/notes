@@ -20,7 +20,7 @@ Verify installation by running `php -v` and checking for "with Xdebug" extension
 
 ## Profiling 
 
-To profile exection, add configuration to PHP ini:
+To profile, add configuration to PHP ini:
 
 ```ini
 xdebug.mode = profile
