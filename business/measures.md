@@ -12,4 +12,4 @@ V = Velocity
 
 Return = Margin * ( Sales / Assets )
 
-_What the CEO Wants You to Know_, Ram Charan
+Equations from _What the CEO Wants You to Know_ by Ram Charan
